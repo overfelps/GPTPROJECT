@@ -1,9 +1,3 @@
- (cd "$(git rev-parse --show-toplevel)" && git apply --3way <<'EOF' 
-diff --git a/README.md b/README.md
-index 6292026fe009eddcc4f90aa9c1244b77f71b8f39..f5e4a66d3ab4401a6968c164c1561bbe08faa8e3 100644
---- a/README.md
-+++ b/README.md
-@@ -1,20 +1,20 @@
  # GPTPROJECT
  
 -This project provides scripts to automate creating a macOS recovery USB drive. It is intended for older Macs that lack a built‑in Recovery HD.
